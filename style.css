@@ -1,0 +1,108 @@
+body {
+    font-family: 'TTHoves', sans-serif
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #222;
+}
+section {
+    padding: 0 121px;
+}
+.logo {
+    margin-top: 37px;
+    margin-bottom: 85px;
+}
+.info {
+    display: flex;
+    gap: 161px;
+    margin-bottom: 76px;
+}
+.title,.subtitle {
+    display: block;
+    font-size: 21px;
+}
+.subtitle {
+    font-weight: 700;
+}
+.maintitle {
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    font-family: 'Chava', sans-serif;
+}
+.info_text {
+    font-weight: 300;
+    font-size: 27px;
+    max-width: 930px;
+    margin-bottom: 20px;
+}
+.primary,.secondary {
+    width: 328px;
+    border-radius: 12px;
+    padding: 20px 0;
+    border: 1px solid #6e3aba;
+    cursor: pointer;
+
+}
+.primary {
+    background-color: #6e3aba;
+    color: white;
+    margin-right: 30px;
+}
+.secondary {
+    color: #6e3aba;
+    background-color: white;
+}
+.info_wrapper{
+    background-image: url(./image/icon.png);
+    background-position: right 58px top 121px;
+    background-repeat: no-repeat;
+    background-size: 30vw ;
+}
+.discount {
+    background-color: rgba(110, 58, 186, 1);
+    margin-top: 122px;
+}
+.title_discount {
+    padding-top: 80px;
+    color: white;
+    text-align: center;
+    font-size: 52px;
+}
+.time {
+    font-size: 174px;
+    display: block;
+    gap: 90px;
+    font-family: 'Chava', sans-serif;
+    color: rgba(47, 29, 78, 1);
+}
+.time_title {
+    font-size: 27px;
+    text-align: center;    
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.timer {
+    margin: auto 40px;
+    text-align: center;
+}
+.button_discount {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 88px;
+}
+.use_discount {
+    width: 328px;
+    padding: 20px;
+    border-radius: 12px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
