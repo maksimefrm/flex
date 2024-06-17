@@ -150,7 +150,7 @@ main {
 }
 .phone {
     display: none;
-    margin: 30px auto 0;
+    margin: 30px ;
 }
 
 
@@ -258,6 +258,13 @@ main {
     }
     .phone {
         display: block;
+    }
+    .buttomFull {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .card {
         flex: 1 1 cals(50% - 40px);
