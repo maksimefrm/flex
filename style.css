@@ -43,18 +43,18 @@ section {
 }
 .primary,.secondary {
     width: 328px;
+    height: 61px;
     border-radius: 12px;
     padding: 20px 0;
     border: 1px solid #6e3aba;
     cursor: pointer;
     font-size: 18px;
-
 }
 .primary {
     background-color: #6e3aba;
     color: white;
-    margin-right: 30px;
     margin-bottom: 20px;
+    margin-right: 30px;
 }
 .secondary {
     color: #6e3aba;
@@ -215,6 +215,37 @@ main {
 
 
 
+.twoMonth {
+    font-size: calc(2.65vw + 24px);
+    font-weight: 500;
+    margin-bottom: calc(7.7vw + -9px);
+}
+.titleTM {
+    font-size: calc(1vw + 14.2px);
+    font-weight: 600;
+    margin-bottom: calc(1.1vw + 5.8px);
+}
+.subtitleTM {
+    font-size: calc(1vw + 14.2px);
+    font-weight: 400;
+}
+.cardTM {
+    margin-bottom: calc(6.6vw + 5.1px);
+    max-width: calc(8vw + 298px);
+}
+.cardsTM {
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(6.6vw + 5.1px);
+}
+.allcardsTM {
+    gap: 30px;
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+}
+
+
 
 
 
@@ -236,5 +267,15 @@ main {
     }
     .info {
         display: block;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .primary {
+        margin-right: 0px;
     }
 }
