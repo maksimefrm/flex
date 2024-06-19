@@ -1,6 +1,15 @@
 body {
     font-family: 'TTHoves', sans-serif
 }
+@font-face {
+    font-family: 'Chava';
+    src: url('Chava-Regular.ttf');
+}
+@font-face {
+    font-family: 'TT Hoves';
+    src: url('TTHoves-Regular.eot');
+    src: local('TT Hoves Regular'), local('TTHoves-Regular')
+}
 *{
     margin: 0;
     padding: 0;
