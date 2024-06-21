@@ -1,14 +1,14 @@
 @font-face {
-    font-family: 'Chava';
-    src: url('Chava-Regular.ttf');
+    font-family: 'TT Hoves';
+    src: url(./fonts/TTHoves-Regular.woff);
+    font-style: normal;
 }
 @font-face {
-    font-family: 'TT Hoves';
-    src: url('TTHoves-Regular.eot');
-    src: local('TT Hoves Regular'), local('TTHoves-Regular')
+    font-family: 'Chava';
+    src: url(./fonts/Chava-Regular.ttf);
 }
 body {
-    font-family: 'TT Hoves', sans-serif;
+    font-family: 'TT Hoves';
 }
 *{
     margin: 0;
@@ -336,6 +336,65 @@ main {
 
 
 
+.diploma_info {
+    margin-top: calc(11vw + 18px);
+    margin-bottom: calc(11vw + 18px);
+}
+.title_diploma {
+    font-size: calc(2.65vw + 24px);
+    font-weight: 500;
+    grid-area: title;
+}
+.final_diplom {
+    display: grid;
+    grid-template-columns: calc(11.3vw + 285.7px) 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 19px;
+    grid-template-areas: "img title"
+                         "img parag";
+}
+#diploma {
+    width: calc(11.3vw + 285.7px);
+    grid-area: img;
+}
+.text_diploma {
+    max-width: 514px;
+    font-size: calc(1vw + 14.2px);
+    grid-area: parag;
+}
+
+
+
+ 
+.what_title {
+    font-size: calc(2.65vw + 24px);
+    font-weight: 500;
+    margin-bottom: calc(1.1vw + 15.8px);
+}
+#what {
+    width: calc(19.1vw + 334.3px);
+}
+.what_span span {
+    font-size: calc(0.3vw + 16.7px);
+}
+.what_span {
+    margin-bottom: calc(0.6vw + 18px);
+}
+.what_parag {
+    width: calc(21.2vw + 248.4px);
+}
+.what_main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+.what_you_get {
+    margin-top: calc(11vw + 18px);
+    margin-bottom: calc(11vw + 18px);
+}
+
 
 
 @media (max-width: 1099px) {
@@ -382,4 +441,27 @@ main {
         grid-template-areas: "smile keyboard"
                              "champion case";
     }
+    .final_diplom {
+        grid-template-columns: 328px;
+        grid-template-rows: 0fr;
+        gap: 20px 0;
+        grid-template-areas: "title"
+                             "img"
+                             "parag";
+    }
+    .title_diploma {
+        height: 120px;
+        margin-bottom: 20px;
+    }
+    .what_main {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .diploma_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

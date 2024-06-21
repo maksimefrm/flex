@@ -1,7 +1,8 @@
-
 @font-face {
     font-family: 'Chava';
     src: url('Chava-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
