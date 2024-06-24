@@ -397,6 +397,105 @@ main {
 
 
 
+
+
+
+
+.title_slider {
+    font-size: calc(2.65vw + 24px);
+    font-weight: 500;
+    margin-bottom: calc(1.1vw + 15.8px);
+}
+.feedback_card {
+    background-color: #F0F7FD;
+    border-radius: 12px;
+    padding: 56px 16px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.youtube {
+    margin-bottom: 12px;
+}
+.user_info {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.user_info h5 {
+    width: 169px;
+    font-size: 21px;
+    font-weight: 400;
+}
+.user_info p {
+    font-size: 21px;
+}
+
+
+
+
+
+.about_full {
+    margin: calc(11vw + 18px) 0px;
+}
+.about_us {
+    font-size: calc(2.65vw + 24px);
+    font-weight: 500;
+    margin-bottom: calc(5.1vw + 15px);
+}
+.kubok img {
+    width: 110px;
+    margin-bottom: calc(2.2vw + 11.7px);
+}
+.kubok p {
+    font-size: calc(0.6vw + 20px);
+    font-weight: 600;
+    width: 426px;
+}
+.span2 h3 {
+    font-size: calc(2.65vw + 24px);
+    font-weight: 700;
+}
+.span2 span {
+    font-size: calc(0.6vw + 14px);
+}
+.about_text {
+    display: flex;
+    gap: calc(6.3vw + 16.3px);
+}
+.all_span2 {
+    display: flex;
+    flex-direction: column;
+    gap: calc(1.1vw + 25.8px);
+}
+
+
+
+
+
+.worry_title {
+    font-size: calc(2.65vw + 24px);
+    font-weight: 500;
+    margin-bottom: calc(-0.7vw + 22.4px);
+}
+#img_worry {
+    width: 100%;
+}
+.p_worry {
+    font-size: calc(1vw + 14.2px);
+    width: calc(46.4vw + 153px);
+    margin-bottom: calc(0.4vw + 18.3px);
+}
+.slider2 {
+    margin-bottom: calc(11vw + 18px);
+}
+.worry_slide {
+    gap: 26px;
+}
+
+
 @media (max-width: 1099px) {
     .legend {
         flex-wrap: wrap;
@@ -464,4 +563,9 @@ main {
         align-items: center;
     }
 
+}
+@media (max-width: 900px) {
+    .about_text {
+        flex-direction: column;
+    }
 }
